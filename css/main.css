@@ -484,11 +484,21 @@ h1 span {
 
 h1.logo {
     font-size: 30px;
-    right: 0;
+    /* right: 0; */
     position: absolute;
-    left: 0;
+    /* left: 0; */
+    /* margin: 0 auto; */
     margin-top: 20px;
     width: 140px;
     margin-left: 13px;
     cursor: pointer;
+}
+h1.logo .span {
+    color: #00d0ff;
+    margin-left: 2.95em;
+}
+h1.logo span {
+    color:white;
+    position: absolute;
+    margin-left:-1px;
 }
