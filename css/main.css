@@ -318,7 +318,7 @@ h1 span {
 
 .overlay {
   position: absolute;
-  background: url('https://pixabay.com/static/uploads/photo/2014/07/06/13/55/calculator-385506_960_720.jpg') center center;
+  background: url(../img/cover/calculator-385506_960_720.jpg) center center;
   background-size: cover;
   top: 0;
   left: 0;
@@ -389,7 +389,7 @@ h1 span {
 }
 
 .modal .graphic {
-  background: url('https://az616578.vo.msecnd.net/files/responsive/cover/main/desktop/2016/01/03/635873821517718970351055939_Stack-of-books-great-education.jpg') bottom left;
+  background: url(../img/cover/635873821517718970351055939_Stack-of-books-great-education.jpg) bottom left;
   position: absolute;
   top: 0;
   right: 0;
@@ -484,15 +484,14 @@ h1 span {
 
 h1.logo {
     font-size: 30px;
-    /* right: 0; */
     position: absolute;
-    /* left: 0; */
-    /* margin: 0 auto; */
     margin-top: 20px;
     width: 140px;
-    margin-left: 13px;
+    margin-left: -600px;
     cursor: pointer;
 }
+
+/*
 h1.logo .span {
     color: #00d0ff;
     margin-left: 2.95em;
@@ -502,3 +501,4 @@ h1.logo span {
     position: absolute;
     margin-left:-1px;
 }
+margin: 0 auto; */
