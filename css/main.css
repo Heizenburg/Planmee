@@ -348,9 +348,10 @@ h1 span {
   max-width: 620px;
   background: white;
   padding: 30px;
+  margin-top: -20px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
   position: relative;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .modal .close-btn {
@@ -374,6 +375,7 @@ h1 span {
 
 .modal .text-box {
   max-width: 55%;
+  margin-bottom: 75px;
 }
 
 .modal .text-box .lead {
@@ -395,7 +397,7 @@ h1 span {
   right: 0;
   width: 280px;
   height: 500px;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .modal form {
@@ -403,9 +405,9 @@ h1 span {
   z-index: 2;
   background: #afaeae;
   padding: 20px;
-  margin: 60px -30px -30px;
+  margin: 0px -30px -30px -30px;
   display: flex;
-  border-radius: 5px;
+  border-radius: 1px;
 }
 
 .modal form input {
@@ -483,12 +485,12 @@ h1 span {
 
 
 h1.logo {
-    font-size: 30px;
-    position: absolute;
-    margin-top: 20px;
-    width: 140px;
-    margin-left: -600px;
-    cursor: pointer;
+font-size: 30px;
+margin-top: 60px;
+width: 140px;
+margin-left: -400px;
+cursor: pointer;
+margin-right: 200px;
 }
 
 /*
@@ -502,3 +504,21 @@ h1.logo span {
     margin-left:-1px;
 }
 margin: 0 auto; */
+
+/*
+Gets rid of the focus ring on firefox
+*/
+input[type="text"]::-moz-focus-outer {
+    border: 0;
+    }
+
+    input[type="password"]::-moz-focus-outer {
+        border: 0;
+        }
+    input[type="text"]:focus {
+        outline: none;
+    }
+
+    input[type="password"]:focus {
+    outline: none;
+    }
