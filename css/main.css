@@ -1,4 +1,4 @@
-/* #Reset & Basics (Inspired by E. Meyers) I <3 love <3 open source by Thato Sello
+/* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
 
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
@@ -396,8 +396,8 @@ h1 span {
   top: 0;
   right: 0;
   width: 280px;
-  height: 500px;
-  border-radius: 2px;
+  height: 505px;
+  border-top-right-radius: 3px;
 }
 
 .modal form {
@@ -409,7 +409,13 @@ h1 span {
   display: flex;
   border-radius: 1px;
 }
-
+input#username {
+    width: 161px;
+    margin-right: 10px;
+}
+input#useremail {
+    width: 161px;
+}
 .modal form input {
   height: 60px;
   border: none;
