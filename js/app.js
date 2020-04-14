@@ -26,13 +26,8 @@ function isInteger(field) {
 }
 
 function reportError(field, defaultMessage) {
-    var errorMessage;
-    if (field.dataset["errormessage"]) {
-        errorMessage = field.dataset["errormessage"];
-    }
-    else {
-        errorMessage = defaultMessage;
-    }
+  
+    let errorMessage = field.dataset["errormessage"] || defaultMessage;
 
     field.focus();
     return errorMessage;
